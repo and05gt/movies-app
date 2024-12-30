@@ -1,0 +1,32 @@
+.homeContainer {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  max-width: 320px;
+  margin: 0 auto;
+  padding-top: 68px;
+}
+
+.title {
+  padding-left: 32px;
+  font-size: 16px;
+  font-weight: 400;
+  z-index: 10;
+}
+
+@media screen and (min-width: 768px) {
+  .homeContainer {
+    max-width: 768px;
+  }
+
+  .title {
+    padding-left: 68px;
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .homeContainer {
+    max-width: 1440px;
+  }
+}

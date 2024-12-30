@@ -1,0 +1,33 @@
+.reviewList {
+  display: inline-flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 8px;
+  border-radius: 16px;
+  max-width: 320px;
+  backdrop-filter: blur(20px);
+}
+
+.reviewAuthor {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 16px;
+  padding-left: 8px;
+}
+
+.reviewText {
+  margin-bottom: 16px;
+  white-space: pre-wrap;
+}
+
+@media screen and (min-width: 768px) {
+  .reviewList {
+    max-width: 564px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  /* .reviewList {
+    max-width: 1440px;
+  } */
+}

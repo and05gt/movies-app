@@ -1,0 +1,33 @@
+.swiperCastWrapper {
+  position: relative;
+  top: 0;
+  display: flex;
+  gap: 16px;
+  width: 256px;
+  /* overflow: visible; */
+  padding-top: 0;
+  padding-bottom: 0;
+  border-radius: 16px 16px 8px 8px;
+  backdrop-filter: blur(20px);
+}
+
+.swiperCastSlide {
+  display: flex;
+  flex-direction: column;
+  /* width: 150px; */
+  border-radius: 8px;
+  gap: 12px;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+@media screen and (min-width: 768px) {
+  .swiperCastWrapper {
+    width: 632px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .swiperCastWrapper {
+    width: 1304px;
+  }
+}
