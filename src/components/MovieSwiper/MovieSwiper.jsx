@@ -4,7 +4,6 @@ import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
 import { EffectCoverflow } from "swiper/modules";
 import { Link, useLocation } from "react-router-dom";
-import style from "./MovieSwiper.module.css";
 import { motion } from "framer-motion";
 import { slideInFromBot } from "../motion/motion.js";
 
@@ -12,12 +11,7 @@ const MovieSwiper = ({ slides }) => {
   const location = useLocation();
 
   return (
-    <motion.div
-      initial="hidden"
-      animate="visible"
-      variants={slideInFromBot()}
-      className={style.swiperContainer}
-    >
+    <motion.div initial="hidden" animate="visible" variants={slideInFromBot()}>
       <Swiper
         effect={"coverflow"}
         slidesPerView={"auto"}

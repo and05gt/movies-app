@@ -42,8 +42,10 @@ img {
 }
 
 .swiper {
-  position: absolute;
+  /* position: absolute;
   top: 110px;
+  left: 32px; */
+  /* right: 32px; */
   width: 320px;
 }
 

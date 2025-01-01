@@ -1,4 +1,6 @@
 .moviesContainer {
+  max-width: 320px;
+  margin: 0 auto;
   padding-top: 68px;
   padding-left: 32px;
   padding-right: 32px;
@@ -8,5 +10,12 @@
   .moviesContainer {
     padding-left: 68px;
     padding-right: 68px;
+    max-width: 768px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .moviesContainer {
+    max-width: 1440px;
   }
 }
