@@ -19,7 +19,7 @@ const MovieDetailsPage = () => {
     if (savedLang !== null) {
       return savedLang;
     }
-    return language;
+    return "en-US";
   });
 
   useEffect(() => {
