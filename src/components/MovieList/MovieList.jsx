@@ -1,7 +1,7 @@
 import { Link, useLocation } from "react-router-dom";
 import style from "./MovieList.module.css";
 import { motion } from "framer-motion";
-import { slideInFromRight } from "../motion/motion.js";
+import { slideInFromRight } from "../../motion/motion.js";
 
 const MovieList = ({ movies }) => {
   const location = useLocation();

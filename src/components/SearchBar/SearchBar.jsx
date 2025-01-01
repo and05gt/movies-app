@@ -1,7 +1,7 @@
 import { Field, Form, Formik } from "formik";
 import style from "./SearchBar.module.css";
 import { motion } from "framer-motion";
-import { slideInFromLeft } from "../motion/motion.js";
+import { slideInFromLeft } from "../../motion/motion.js";
 
 const SearchBar = ({ handleChangeQuery }) => {
   const initialValues = {

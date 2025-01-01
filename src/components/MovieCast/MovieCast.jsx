@@ -7,7 +7,7 @@ import ErrorMessage from "../ErrorMessage/ErrorMessage";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import { motion } from "framer-motion";
-import { slideInFromBot } from "../motion/motion.js";
+import { slideInFromBot } from "../../motion/motion.js";
 
 const MovieCast = () => {
   const { movieId } = useParams();

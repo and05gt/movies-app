@@ -5,7 +5,7 @@ import "swiper/css/pagination";
 import { EffectCoverflow } from "swiper/modules";
 import { Link, useLocation } from "react-router-dom";
 import { motion } from "framer-motion";
-import { slideInFromBot } from "../motion/motion.js";
+import { slideInFromBot } from "../../motion/motion.js";
 
 const MovieSwiper = ({ slides }) => {
   const location = useLocation();

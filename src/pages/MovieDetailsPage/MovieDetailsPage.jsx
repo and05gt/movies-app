@@ -5,7 +5,7 @@ import style from "./MovieDetailsPage.module.css";
 import Loader from "../../components/Loader/Loader";
 import ErrorMessage from "../../components/ErrorMessage/ErrorMessage";
 import { motion } from "framer-motion";
-import { slideInFromLeft } from "../../components/motion/motion.js";
+import { slideInFromLeft } from "../../motion/motion.js";
 
 const MovieDetailsPage = () => {
   const { movieId } = useParams();

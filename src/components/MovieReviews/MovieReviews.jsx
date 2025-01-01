@@ -5,7 +5,7 @@ import style from "./MovieReviews.module.css";
 import Loader from "../Loader/Loader";
 import ErrorMessage from "../ErrorMessage/ErrorMessage";
 import { motion } from "framer-motion";
-import { slideInFromBot } from "../motion/motion.js";
+import { slideInFromBot } from "../../motion/motion.js";
 
 const MovieReviews = () => {
   const { movieId } = useParams();
